@@ -7,8 +7,6 @@ Now this was a fun one because I've never really worked with indexing strings li
 So, heres my code solution. 
 
 ```go
-package main
-
 func main() {
 	fmt.Println(checkString("aaabbb"))
 }
