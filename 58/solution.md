@@ -2,7 +2,7 @@
 
 Starting it off, I'll use the `strings` package to slice `s` into substrings using the `strings.Split()` function. This works when we take the first example; `"Hello World"` because it will split at the whitespace. 
 
-But when it comes to example 2; `"   fly me   to   the moon  "` because `Split` cuts at every single space, so consecutive spaces produce empty strings ("") in the slice. With trailing spaces, the last element is "", which has length 0. So in this case we would get an answer like: `length of last string = 0` because its counting the empty space to be the last word.
+But when it comes to example 2; `"   fly me   to   the moon  "`, because `Split` cuts at every single space, consecutive spaces produce empty strings in the slice. With trailing spaces, the last element is "", which has length 0. So in this case we would get an answer like: `length of last string = 0` because its counting the empty space to be the last word.
 
 I took this flawed approuch at first, before testing the edge cases and realising the `Split()` function would not work in this case. We need `strings.Fields()`. 
 
