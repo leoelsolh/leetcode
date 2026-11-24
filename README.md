@@ -11,3 +11,4 @@ go run ./<problem-folder>
 |------|--------------------------------------------|-----------------------------|
 | 2124 | Check if All A's Appears Before All B's    | [notes](./2124/solution.md) |
 | 344  | Reverse String                             | [notes](./344/solution.md)  |
+| 125  | Valid Palindrome                           | [notes](./125/solution.md)  |
