@@ -9,6 +9,7 @@ go run ./<problem-folder>
 ### **Problem Index**
 | #    | Problem                                    | Notes                       |
 |------|--------------------------------------------|-----------------------------|
+| 27   | Remove Element                             | [notes](./27/solution.md)   |
 | 58   | Length of Last Word                        | [notes](./58/solution.md)   |
 | 125  | Valid Palindrome                           | [notes](./125/solution.md)  |
 | 344  | Reverse String                             | [notes](./344/solution.md)  |
