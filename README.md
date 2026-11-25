@@ -1,7 +1,7 @@
 <div align="center">
 
 # **Golang Leetcode Solutions**
-[![LeetCode](https://img.shields.io/badge/LeetCode-elsolh-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/YOUR_LC_USERNAME/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-elsolh-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/elsolh/)
 ![Go version](https://img.shields.io/github/go-mod/go-version/leoelsolh/leetcode?style=for-the-badge&logo=go&logoColor=white)
 ![Solved](https://img.shields.io/badge/solved-8-2ea44f?style=for-the-badge)
 
