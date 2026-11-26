@@ -24,6 +24,7 @@ go run ./<problem-folder>
 | 58   | Length of Last Word                        | [notes](./58/solution.md)   |
 | 125  | Valid Palindrome                           | [notes](./125/solution.md)  |
 | 217  | Contains Duplicate                         | [notes](./217/solution.md)  |
+| 242  | Valid Anagram                              | [notes](./242/solution.md)  |
 | 344  | Reverse String                             | [notes](./344/solution.md)  |
 | 485  | Maximum Consecutive Ones                   | [notes](./485/solution.md)  |
 | 1480 | Running Sum of 1d Array                    | [notes](./1480/solution.md) |
