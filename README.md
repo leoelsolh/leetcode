@@ -20,6 +20,7 @@ go run ./<problem-folder>
 ### **Problem Index**
 | #    | Problem                                    | Notes                       |
 |------|--------------------------------------------|-----------------------------|
+| 1    | Two Sum                                    | [notes](./1/solution.md)    |
 | 27   | Remove Element                             | [notes](./27/solution.md)   |
 | 58   | Length of Last Word                        | [notes](./58/solution.md)   |
 | 125  | Valid Palindrome                           | [notes](./125/solution.md)  |
@@ -28,5 +29,5 @@ go run ./<problem-folder>
 | 344  | Reverse String                             | [notes](./344/solution.md)  |
 | 485  | Maximum Consecutive Ones                   | [notes](./485/solution.md)  |
 | 1480 | Running Sum of 1d Array                    | [notes](./1480/solution.md) |
-| 1672 | Richest Customer Wealth
+| 1672 | Richest Customer Wealth                    | [notes](./1672/solution.md) | 
 | 2124 | Check if All A's Appears Before All B's    | [notes](./2124/solution.md) |
