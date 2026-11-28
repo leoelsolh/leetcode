@@ -12,10 +12,7 @@ But most of the notes are just personal thoughts, intuition, and things too look
 
 And, Check out my [leetcode profile](https://leetcode.com/u/elsolh) if you get the chance.
 
-### **Usage**
-```go
-go run ./<problem-folder>
-```
+***
 
 ### **Problem Index**
 | #    | Problem                                    | Notes                       |
@@ -28,6 +25,19 @@ go run ./<problem-folder>
 | 242  | Valid Anagram                              | [notes](./242/solution.md)  |
 | 344  | Reverse String                             | [notes](./344/solution.md)  |
 | 485  | Maximum Consecutive Ones                   | [notes](./485/solution.md)  |
+| 977  | Squares of a Sorted Array                  | [notes](./977/solution.md)  |
 | 1480 | Running Sum of 1d Array                    | [notes](./1480/solution.md) |
 | 1672 | Richest Customer Wealth                    | [notes](./1672/solution.md) | 
 | 2124 | Check if All A's Appears Before All B's    | [notes](./2124/solution.md) |
+
+***
+
+### **Revisit:**
+| #    | Reason                                          |
+|------|-------------------------------------------------|
+| 2124 | Redundant check and a last-index special case   |
+| 125  | Should use `regexp.MustCompile`, keep `res`/`lres` consistent |
+| 58   | Solve without `strings.Fields`                  |
+| 242  | `[26]int` instead of a map                      |
+| 283  | Single pass with swaps                          |
+| 977  | O(n) follow-up with two pointers                |
