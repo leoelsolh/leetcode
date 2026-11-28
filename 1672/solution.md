@@ -10,16 +10,6 @@ If the current account total it greater-than the `best` value, the `best` *becom
 
 ### **Solution Code:**
 ```go 
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println(maximumWealth([][]int{{1, 2, 3}, {3, 2, 1}}))
-	fmt.Println(maximumWealth([][]int{{1, 5}, {7, 3}, {3, 5}}))
-	fmt.Println(maximumWealth([][]int{{2, 8, 7}, {7, 1, 3}, {1, 9, 5}}))
-}
-
 func maximumWealth(accounts [][]int) int {
 	var best int
 	for _, acc := range accounts {

@@ -24,19 +24,6 @@ After that, we use a `for` to loop until the condition is false (l < r), swappin
 
 ### **Solution Code**
 ```go
-package main
-
-import (
-	"fmt"
-)
-
-func main() {
-	s := []byte{'h', 'e', 'l', 'l', 'o'}
-	fmt.Printf(" ⇄ %v\n", string(s))
-	reverseString(s)
-	fmt.Printf(" ⇄ %v\n", string(s))
-}
-
 func reverseString(s []byte) {
 	l := 0
 	r := len(s) - 1

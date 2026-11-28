@@ -10,15 +10,6 @@ Something that tripped me up; the rune value. Looping over a string gives you a 
 
 ### **Solution Code:**
 ```go 
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println(isAnagram("anagram", "nagaram")) // true
-	fmt.Println(isAnagram("rat", "car"))         // false
-}
-
 func isAnagram(s, t string) bool {
 	if len(s) != len(t) {
 		return false

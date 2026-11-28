@@ -7,10 +7,6 @@ Now this was a fun one because I've never really worked with indexing strings li
 So, heres my code solution. 
 
 ```go
-func main() {
-	fmt.Println(checkString("aaabbb"))
-}
-
 func checkString(s string) bool {
 	for i, c := range s {
 		if c == 'b' {

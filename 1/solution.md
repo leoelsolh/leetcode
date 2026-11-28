@@ -10,16 +10,6 @@ In this case my final code does not produce output identical to LeetCode's examp
 
 ### **Solution Code:**
 ```go
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println(twoSum([]int{2, 7, 11, 15}, 9)) // [1,0]
-	fmt.Println(twoSum([]int{3, 2, 4}, 6))      // [2,1]
-	fmt.Println(twoSum([]int{3, 3}, 6))         // [1,0]
-}
-
 func twoSum(nums []int, target int) []int {
 	s := make(map[int]int)
 	for i, n := range nums {

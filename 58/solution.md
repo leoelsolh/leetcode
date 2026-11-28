@@ -10,19 +10,6 @@ The `strings.Fields()` function splits the string s around each instance of one 
 
 ### **Solution Code:**
 ```go
-package main
-
-import (
-	"fmt"
-	"strings"
-)
-
-func main() {
-	fmt.Println(lengthOfLastWord("Hello World"))                 // 5
-	fmt.Println(lengthOfLastWord("   fly me   to   the moon  ")) // 4
-	fmt.Println(lengthOfLastWord("luffy is still joyboy"))       // 6
-}
-
 func lengthOfLastWord(s string) int {
 	slce := strings.Fields(s)
 	lwrd := slce[len(slce)-1]

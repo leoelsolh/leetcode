@@ -8,15 +8,6 @@ The solution was to have two seperate variables as mentioned above. One for the 
 
 ### **Solution Code:**
 ```go
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println(findMaxConsecutiveOnes([]int{1, 1, 0, 1, 1, 1}))
-	fmt.Println(findMaxConsecutiveOnes([]int{1, 0, 1, 1, 0, 1}))
-}
-
 func findMaxConsecutiveOnes(nums []int) int {
 	var best int
 	var curr int

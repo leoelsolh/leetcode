@@ -6,16 +6,6 @@ Writing the solution, I took heavy *inspiration* from my previous code on the re
 
 ### **Solution Code:**
 ```go
-package main
-
-import "fmt"
-
-func main() {
-	nums := []int{0, 1, 0, 3, 12}
-	moveZeroes(nums)
-	fmt.Println(nums)
-}
-
 func moveZeroes(nums []int) {
 	var count int
 	for _, num := range nums {
